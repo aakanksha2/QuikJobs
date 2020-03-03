@@ -5,9 +5,12 @@
     <body>
         <h1>WELCOME</h1>
         
-        <h2>Sign Up</h2>
+        <a href="Sign%20In"><button>SIGN IN</button></a>
         
-        <h3>Log In</h3>
+        <br>
+        <br>
+        
+        <a href="Sign%20Up"><button>SIGN UP</button></a>
 
     </body>
     
