@@ -3,26 +3,49 @@
 <!DOCTYPE html>
 
 <html>
+    <head>
+    
+    <!-- Connects it to the CSS that runs the site -->
+    <link rel="stylesheet" href="Search%20Home%20Page.css">
+    
+    </head>
+    
+    <header>
+        <div class="topnav">
+            
+            <!-- Is the logo of the app -->
+            <img src="logo.png"/>
+            
+            <!-- The search bar (need to figure out the action still) -->
+            <div class="search-container">
+                
+                <form action="/">
+                    
+                    <input type="text" placeholder="Search..." name="search">
+                    
+                    <button type="submit">Submit</button>
+                
+                </form>
+            
+            </div>
+            
+            <!-- The fliter dropdown -->
+            <div class="filter">
+                
+                <label for="filter">Filter:</label>
+                
+                <select id="filter">
+                    <option value="Low_High">Low Pay to High Pay</option>
+                    <option value="High_Low">High Pay to Low Pay</option>
+                </select>
+            
+            </div>
+            
+        </div>
+    </header>
+    
     <body>
         <h1>Search</h1>
-
-            <label for="usersname">Name:</label>
-            <input type="text" id="usersname" name="username"><br><br>
-
-            <label for="phonenumber">Phone Number:</label>
-            <input type="text" id="phonenumber" name="phonenumber"><br><br>
-
-            <label for="location">Location:</label>
-            <input type="text" id="location" name="location"><br><br>
-
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email"><br><br>
-
-            <label for="password">Password:</label>
-            <input type="text" id="password" name="password"><br><br>
-
-            <label for="rating">Rating:</label>
-            <input type="text" id="rating" name="rating"><br><br>
         
     </body>
     
