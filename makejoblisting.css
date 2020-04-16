@@ -1,0 +1,21 @@
+.center {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+body {
+    background-color: gray;
+}
+
+input[type=text] {
+    border-radius: 4px;
+    background-color: darkblue;
+}
+
+textarea {
+    border-radius: 4px;
+    color: darkblue;
+}
