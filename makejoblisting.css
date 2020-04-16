@@ -1,21 +1,100 @@
+body {
+    background-color: lightgray;
+}
+
 .center {
-    text-align: center;
+    margin:auto;
+    width: 25%;
 }
 
 .white {
     color: white;
 }
 
-body {
-    background-color: gray;
+/* Styling for the text input boxes */
+
+.container {
+    position: relative;
+    width: 300px;   
 }
 
-input[type=text] {
+.container input {
+    display:block; 
+    border: 2px solid black; 
     border-radius: 4px;
-    background-color: darkblue;
+    background-color: dodgerblue;
 }
 
-textarea {
-    border-radius: 4px;
-    color: darkblue;
+.container-label { 
+    position: absolute; 
+    display:block; 
+    left: 8px; 
+    top: 6px;
+    font-family: "Lucida Sans Unicode";
+    color: white;
 }
+
+#jobtitle {padding: 10px 10px 10px 85px; width: 300px;}
+
+#joblocation {padding: 10px 10px 10px 115px; width: 270px;}
+
+#payment{padding: 10px 10px 10px 105px; width: 280px;}
+
+/* Styling for selection input boxes */
+
+.selection {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 5px 5px;
+    width: 385px;
+    height: 80px;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+.selection label {
+    position: absolute;
+    font-family: "Lucida Sans Unicode";
+    color: white;
+    
+}
+.selection select {
+    background-color: white;
+    border:0px;
+    margin-top: 30px;
+    height: 20px;
+    padding: 6px;
+    font-family: "Helvetica";
+}
+
+.selection input {
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-family: "Helvetica";
+}
+
+span {
+    font-family: "Lucida Sans Unicode";
+    color: white;
+}
+
+/* Styling for description input box */
+
+.textbox {
+    border: 1px solid white;
+    padding: 5px 5px 5px;
+    width: 370px;
+    height: 60px;
+    background-color: white;
+    position: relative;
+}
+
+.textbox textarea {
+    resize: none;
+    width: 360px;
+    height: 30px;
+    margin-top: 6px;
+}
+
+
