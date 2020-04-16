@@ -1,3 +1,5 @@
+/* All styling for the page */
+
 {box-sizing: border-box;}
 
 body {
@@ -5,15 +7,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Styling for the whole header */
 .topnav {
     overflow: hidden;
     background-color: #15965e;
 }
 
+/* Styling for the search bar */
 .topnav .search-container {
     float: right;
 }
 
+/* Styling for the search bar content */
 .topnav input[type=text] {
     padding: 6px;
     margin-top: 8px;
@@ -23,6 +28,7 @@ body {
     height: 25px;
 }
 
+/* Styling for the search bar submit button */
 .topnav .search-container button {
     float: right;
     padding: 8px 12px;
@@ -34,6 +40,8 @@ body {
     cursor: pointer;
 }
 
+
+/* Styling for when mouse is hovering over the search bar submit button */
 .topnav .search-container button:hover {
     background: #ccc;
 }
@@ -55,6 +63,7 @@ body {
     }
 }
 
+/* Styling for the fliter */
 .topnav .filter {
     float: center;
     padding: 8px 12px;
