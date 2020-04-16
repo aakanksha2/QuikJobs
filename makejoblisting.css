@@ -40,14 +40,14 @@ body {
 
 #payment{padding: 10px 10px 10px 105px; width: 280px;}
 
-/* Styling for selection input boxes */
+/* Styling for category input boxes */
 
 .selection {
     border: 2px solid black;
     border-radius: 4px;
     padding: 5px 5px 5px;
     width: 385px;
-    height: 80px;
+    height: 55px;
     background-color: dodgerblue;
     position: relative;
 }
@@ -67,34 +67,60 @@ body {
     font-family: "Helvetica";
 }
 
-.selection input {
+/* Styling for duration input boxes */
+
+.selection-duration {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 5px 5px;
+    width: 385px;
+    height: 80px;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+.selection-duration input {
     background-color: white;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-right: 40px;
     font-family: "Helvetica";
 }
 
+.selection-duration label {
+    position: absolute;
+    font-family: "Lucida Sans Unicode";
+    color: white;
+    
+}
 span {
     font-family: "Lucida Sans Unicode";
     color: white;
+    margin-bottom: 5px;
 }
+
 
 /* Styling for description input box */
 
 .textbox {
-    border: 1px solid white;
+    border: 2px solid black;
+    border-radius: 4px;
     padding: 5px 5px 5px;
-    width: 370px;
-    height: 60px;
-    background-color: white;
+    width: 385px;
+    height: 70px;
+    background-color: dodgerblue;
     position: relative;
 }
 
 .textbox textarea {
     resize: none;
-    width: 360px;
+    width: 375px;
     height: 30px;
     margin-top: 6px;
+}
+
+.textbox label {
+    font-family: "Lucida Sans Unicode";
+    color: white;
 }
 
 
