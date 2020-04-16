@@ -10,25 +10,55 @@
     
     </head>
     
-    <body class="center white">
+    <body class="center">
         <h1>Make A Job Listing</h1>
         
-        <label for="jobtitle">Job Title:</label>
-        <input type="text" id="jobtitle" name="jobtitle"><br><br>
+        <div class="container">
+            <input type="text" id="jobtitle" name="jobtitle"><br><br>
+            <label class="container-label">Job Title</label>
+        </div>
+
+        <div class="container">
+            <input type="text" id="joblocation" name="joblocation"><br><br>
+            <label class="container-label">Job Location</label>
+        </div>
         
-        <label for="jobduration">Job Duration:</label>
-        <input type="text" id="jobduration" name="jobduration"><br><br>
+        <div class="selection">
+            <label>Category</label>
+            <select id="category" style="width: 100%;">
+                <option value="outdoor work">Outdoor Work</option>
+            </select>
+        </div><br>
         
-        <label for="joblocation">Job Location:</label>
-        <input type="text" id="joblocation" name="joblocation"><br><br>
+        <div class="selection">
+            <span>Date Duration:</span><br><br>
+            
+            <label for="jobstart">Start:</label>
+            <input type="date" id="jobstart" name="jobstart">
+
+            <label for="jobend">End:</label>
+            <input type="date" id="jobend" name="jobend">
+        </div><br>
         
-        <label for="category">Category:</label>
-        <input type="text" id="category" name="category"><br><br>
+        <div class="selection">
+            <span>Time Duration:</span><br><br>
+            
+            <label for="jobfrom">From:</label>
+            <input type="time" id="jobfrom" name="jobfrom">
+            
+            <label for="jobto">To:</label>
+            <input type="time" id="jobto" name="jobto">
+        </div><br><br>
         
-        <label for="description">Description:</label>
-        <textarea id="description" rows="4" cols="50"></textarea><br><br>
+        <div class="container">
+            <input type="text" id="payment" name="payment">
+            <label class="container-label">Payment ($)</label><br><br>
+        </div>
         
-        <input type="button" value="Submit" id="button">
+        <div class="textbox">
+            <label for="description">Description</label>
+            <textarea id="description" type="text"></textarea><br><br>
+        </div>
         
     </body>
     
